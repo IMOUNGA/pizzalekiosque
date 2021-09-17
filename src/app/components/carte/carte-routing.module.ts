@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {CarteComponent} from "./carte.component";
-import { MenuModule } from './menu/menu.module';
 
 const routes: Routes = [
   {
@@ -11,6 +10,10 @@ const routes: Routes = [
       { path: '', loadChildren: () => import('./menu/menu.module')
           .then(m => m.MenuModule)
       },
+      {
+        path: 'boissons', loadChildren: () => import('./drinks/drinks.module')
+          .then(m => m.DrinksModule)
+      }
     ]
   }
 ];

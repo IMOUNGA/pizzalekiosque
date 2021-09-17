@@ -3,8 +3,6 @@ import { SharedModule } from "../../shared/shared.module";
 import { CarteRoutingModule } from './carte-routing.module';
 
 import { CarteComponent } from "./carte.component";
-import { MenuComponent } from './menu/menu.component';
-import {MenuModule} from "./menu/menu.module";
 
 @NgModule({
   declarations: [
@@ -15,7 +13,7 @@ import {MenuModule} from "./menu/menu.module";
     CarteRoutingModule,
   ],
   exports: [
-    CarteComponent
+    CarteComponent,
   ]
 })
 export class CarteModule { }
