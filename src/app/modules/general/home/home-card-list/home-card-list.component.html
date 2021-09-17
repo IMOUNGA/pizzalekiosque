@@ -1,0 +1,5 @@
+<div class="home-card-list-element" *ngIf="card">
+  <h3>{{ card.title }}</h3>
+  <p>{{ card.description }}</p>
+  <a routerLink="{{ card.redirectTo}}" routerLinkActive="activeLink">{{ card.buttonText }}</a>
+</div>
