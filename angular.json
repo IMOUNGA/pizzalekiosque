@@ -17,19 +17,9 @@
           "skipTests": true
         },
         "@schematics/angular:pipe": {
-          "export": false,
-          "flat": true,
-          "module": "",
-          "skipImport": false,
           "skipTests": true
         },
         "@schematics/angular:directive": {
-          "export": false,
-          "flat": true,
-          "module": "",
-          "prefix": "app",
-          "selector": "",
-          "skipImport": false,
           "skipTests": true
         },
         "@schematics/angular:class": {
