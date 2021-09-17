@@ -17,13 +17,13 @@ export const MENU: Menu[] = [
     title: "PLATS CHAUDS",
     text: "Variez les plaisirs ! Nous vous proposons plusieurs plats chauds.",
     image: "../../assets/images/food/thumb_hotfood.jpg",
-    routerLink: "/platschauds"
+    routerLink: "/plats-chauds"
   },
   {
     title: "SANDWICHS & PANINIS",
     text: "Une petite faim ? Un dejeuné rapide ! Nos Sandwichs et Panini sauront vous satisfaire.",
     image: "../../assets/images/food/thumb_sandwichs.jpg",
-    routerLink: "/sandwichspaninis"
+    routerLink: "/sandwichs-paninis"
   },
   {
     title: "SALADES",

@@ -1,0 +1,6 @@
+<div class="menu_card" *ngIf="item">
+  <div class="menu_card__banniere" appBannieresMenus [backgroundImage]="getItemBanniere(item)">Mettre une image</div>
+  <h3>{{ item.title }}</h3>
+  <p>{{ item.text }}</p>
+  <a href="#" class="menu_card" routerLink="{{ item.routerLink }}">Voir plus</a>
+</div>

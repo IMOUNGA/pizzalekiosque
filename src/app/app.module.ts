@@ -4,6 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { NotFoundComponent } from './modules/general/not-found/not-found.component';
+import { BannieresMenusDirective } from './directives/bannieres-menus.directive';
 
 
 
