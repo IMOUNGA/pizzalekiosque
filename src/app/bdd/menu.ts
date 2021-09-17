@@ -39,9 +39,9 @@ export const MENU: Menu[] = [
   },
   {
     title: "BOISSONS",
-    text: "Découvrez les boissons que nous vous proposons.",
+    text: "Découvrez les drinks que nous vous proposons.",
     image: "../../assets/images/food/drinks.jpg",
-    routerLink: "/boissons"
+    routerLink: "/drinks"
   },
 
 ];

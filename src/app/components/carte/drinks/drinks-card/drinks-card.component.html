@@ -1,0 +1,6 @@
+<div class="drinks_card" *ngIf="item">
+  <h3>{{ item.name }}</h3>
+  <p>{{ item.price }}</p>
+  <p *ngIf="item.priceMedium">{{ item.priceMedium }}</p>
+  <p *ngIf="item.priceBig">{{ item.priceBig }}</p>
+</div>

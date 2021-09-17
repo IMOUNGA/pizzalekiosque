@@ -8,6 +8,32 @@
       "schematics": {
         "@schematics/angular:application": {
           "strict": true
+        },
+        "@schematics/angular:component": {
+          "skipTests": true
+        },
+        "@schematics/angular:service": {
+          "flat": true,
+          "skipTests": true
+        },
+        "@schematics/angular:pipe": {
+          "export": false,
+          "flat": true,
+          "module": "",
+          "skipImport": false,
+          "skipTests": true
+        },
+        "@schematics/angular:directive": {
+          "export": false,
+          "flat": true,
+          "module": "",
+          "prefix": "app",
+          "selector": "",
+          "skipImport": false,
+          "skipTests": true
+        },
+        "@schematics/angular:class": {
+          "skipTests": true
         }
       },
       "root": "",
